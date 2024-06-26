@@ -1,0 +1,32 @@
+[
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.128k",
+        "num_instance": 100,
+        "truncation": 4096
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.256k",
+        "num_instance": 100,
+        "truncation": 16384
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.256k",
+        "num_instance": 100,
+        "truncation": 25600
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.256k",
+        "num_instance": 100,
+        "truncation": 32768
+    },
+    {
+        "task_type": "perplexity",
+        "task_name": "pg19.test.1m",
+        "num_instance": 100,
+        "truncation": 99328
+    }
+]

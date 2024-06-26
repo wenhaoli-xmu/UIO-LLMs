@@ -1,0 +1,7 @@
+{
+    "num_memory": 128,
+    "lora_rank": 128,
+    "lora_alpha": 512,
+    "lora_dropout": 0,
+    "chunk_size": 1024
+}

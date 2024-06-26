@@ -1,0 +1,11 @@
+# checkpoint and log file
+ckp/
+log/
+*.pth
+*.log
+
+# raw data
+raw_data/
+
+# ide & pycache
+**/__pycache__/

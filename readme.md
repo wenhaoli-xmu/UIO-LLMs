@@ -49,10 +49,10 @@ As long as a checkpoint is generated during the training process (controlled by 
 The `test.py` script will automatically search for a `test.json` file in the working directory, which is used to configure the dataset to be evaluated. Each instance in the file has the following format:
 ```json
 {
-    "task_type": "perplexity",     // specifies the task type
-    "task_name": "pg19.test.128k", // specifies which task
-    "num_instance": 100,           // number of data instances to evaluate
-    "truncation": 99382            // maximum length of each evaluation data
+    "task_type": "perplexity",
+    "task_name": "pg19.test.128k", 
+    "num_instance": 100,
+    "truncation": 99382
 }
 ```
 

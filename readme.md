@@ -27,7 +27,7 @@ cp activation-beacon/finetune/longalpaca.json .
 cd uiollms
 python train.py --env_conf 32x.json
 ```
-**Instructions on `32x.json` Config**
+**Illustration on `32x.json` Config**
 
 * You can modify the `device_map` field in the `32x.json` file to change the GPU used for model loading. By assigning different GPUs to different modules, you can achieve pipeline parallelism.
 * You can adjust the `config/32x.json` configuration file to change the parameters of LoRA fine-tuning, such as chunk size and compression ratio, etc.

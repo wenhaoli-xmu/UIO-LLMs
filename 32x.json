@@ -2,7 +2,7 @@
     "model": {
         "model_name": "meta-llama/Llama-2-7b-chat-hf",
         "model_dtype": "bf16",
-        "model_method": "uiollms",
+        "model_method": "ccf",
         "model_structure": "llama",
         "save_ckp": "ckp/32x.pth",
         "load_ckp": null,
@@ -95,12 +95,12 @@
         "corpus": [
             {
                 "name": "redpajama book sample.train.1m",
-                "partition": 0.05,
-                "truncation": 99328
+                "partition": 0.5,
+                "truncation": 131072
             },
             {
                 "name": "beacons sampled.8192",
-                "partition": 0.95,
+                "partition": 0.5,
                 "truncation": null
             }
         ],
@@ -114,8 +114,9 @@
                 "task_type": "perplexity",
                 "task_name": "pg19.test.1m",
                 "num_instance": 10,
-                "truncation": 99328
+                "truncation": 131072
             }
         ]
     }
+
 }

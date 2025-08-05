@@ -738,7 +738,7 @@ class EncoderDecoder(torch.nn.Module):
             return outputs
 
 
-class UIOLLMs(SegmentRecurrentModifier):
+class CCF(SegmentRecurrentModifier):
     def __init__(self, model, save_ckp, load_ckp, config):
 
         self.get_conf(config)
@@ -808,3 +808,4 @@ class UIOLLMs(SegmentRecurrentModifier):
             grads = torch.zeros_like(states)
         
         return grads, states
+
